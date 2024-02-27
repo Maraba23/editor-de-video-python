@@ -9,3 +9,9 @@ Não se esqueça de instalar as dependencias necessarias para rodar o programa
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+## Editor-v2.py
+
+Esse arquivo serve pra facilitar a edição de videos, Escolha a imagem e o audio que deseja usar para gerar o video desde que estejam no seu computador, selecione o nome que quer no output do video e pronto, o video sai na pasta "videos" com o nome que voce escolheu
