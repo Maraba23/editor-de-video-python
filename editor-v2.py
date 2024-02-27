@@ -4,9 +4,9 @@ from moviepy.editor import ImageClip, AudioFileClip
 import os
 
 # Função para criar vídeo
-def criar_video(caminho_imagem, caminho_musica, nome_saida):
+def criar_video(caminho_imagem, caminho_musica, nome_saida, volume=2.0):
     clip_imagem = ImageClip(caminho_imagem)
-    clip_audio = AudioFileClip(caminho_musica)
+    clip_audio = AudioFileClip(caminho_musica).volumex(volume)
     clip_imagem = clip_imagem.set_duration(clip_audio.duration)
     video_final = clip_imagem.set_audio(clip_audio)
     

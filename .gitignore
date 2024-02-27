@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 audio/*
 image/*
-video/*
+videos/*
